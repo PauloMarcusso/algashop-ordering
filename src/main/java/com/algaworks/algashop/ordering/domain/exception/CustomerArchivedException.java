@@ -4,7 +4,7 @@ import static com.algaworks.algashop.ordering.domain.exception.ErrorMessages.ERR
 
 public class CustomerArchivedException extends DomainException {
 
-    public CustomerArchivedException(String message) {
+    public CustomerArchivedException() {
         super(ERROR_CUSTOMER_ARCHIVED);
     }
 
